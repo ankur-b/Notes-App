@@ -1,0 +1,11 @@
+// const fs = require("fs")
+// // fs.writeFileSync("notes.txt","My Name is Ankur")
+// // fs.appendFileSync("notes.txt","I am archman")
+// const utils = require("./utils")
+// const notes = require("./notes")
+// console.log(utils.add(2,4))
+// console.log(utils.name)
+// console.log(notes())
+const validator = require("validator")
+
+console.log(validator.isEmail("tcs.com"))
